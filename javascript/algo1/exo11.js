@@ -1,6 +1,7 @@
 for (let i = 0; i <= 9; i++) {
-    console.log(`\nTable de ${i} : `);
+    let ligne = `${i}`
     for (let j = 0; j <= 9; j++) {
-        console.log(`${i} x ${j} = ${i * j}`);
+        ligne += ` ${(i * j).toString().padStart(2)}`
     }
+    console.log(ligne)
 }
