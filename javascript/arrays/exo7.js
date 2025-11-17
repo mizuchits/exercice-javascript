@@ -8,4 +8,4 @@ function reverseMessage(string) {
 };
 
 let string = "je test"
-console.log(reverseMessage(string));
+reverseMessage(string)
