@@ -1,5 +1,3 @@
-console.log(window);
-
 const countdown = document.getElementById('countdown')
 let count
 

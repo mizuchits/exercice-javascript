@@ -1,5 +1,3 @@
-console.log(window);
-
 let clock = document.getElementById("clock")
 
 setInterval(function () {

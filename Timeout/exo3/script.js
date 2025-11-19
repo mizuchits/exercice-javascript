@@ -1,5 +1,3 @@
-console.log(window);
-
 const blink = document.getElementById('blink')
 let count = 0
 
